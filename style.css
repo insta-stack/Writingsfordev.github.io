@@ -1,0 +1,250 @@
+body {
+  background-color: hsl(0, 0%, 0%);
+}
+h3 {
+  color: rgb(0, 249, 249);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-right: 50%;
+  font-size: small;
+  display: block;
+  font-weight: 500;
+  font-size: 20px;
+  margin-left: 1px;
+}
+a {
+  color: hwb(0 100% 0% / 0.949);
+  text-transform: capitalize;
+  text-decoration: none;
+  margin-left: 100px;
+  align-content: end;
+  margin-top: 1px;
+  margin-right: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+ 
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-left: 1px;
+}
+h1 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #ff0f7b;
+  justify-content: center;
+  margin-left: 29%;
+  margin-top: 25px;
+  justify-content: space-evenly;
+  text-transform: capitalize;
+  font-size: 4rem;
+  padding-bottom: 0px;
+}
+h4 {
+  color: hwb(0 100% 0% / 0.949);
+  text-transform: capitalize;
+  margin-left: 560px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* /* margin-top: 0px; */
+}
+#navi {
+  display: flex;
+  justify-content: space-around;
+  /* margin-left: 300px; */
+  padding: 0%;
+  margin-left: 10px;
+  margin-right: 80px;
+  transition: ease-in-out;
+}
+
+#ele1{
+  background-color: rgb(255, 255, 255);
+  height: 350px;
+  width: 22rem;
+  border-radius: 10%;
+  margin-top: 3rem;
+  }
+#ele2{
+  background-color: rgb(255, 255, 255);
+  height: 350px;
+  width: 22rem;
+  border-radius: 10%;
+  margin-top: 3rem; 
+}
+#ele3{
+  background-color: rgb(255, 255, 255);
+  height: 350px;
+  width: 22rem;
+  border-radius: 10%;
+  margin-top: 3rem;
+}
+#ele4{
+  background-color: rgb(255, 255, 255);
+  height: 350px;
+  width: 22rem;
+  border-radius: 10%;
+  margin-top: 3rem;
+}
+#ele5{
+  background-color: rgb(255, 255, 255);
+  height: 350px;
+  width: 22rem;
+  border-radius: 10%;
+  margin-top: 3rem;
+}
+#ele6{
+  background-color: rgb(255, 255, 255);
+  height: 350px;
+  width: 22rem;
+  border-radius: 10%;
+  margin-top: 3rem;
+
+}
+.head {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-size: large;
+  margin-top: 10px;
+  font-weight: bolder;
+}
+.Para {
+  text-align: start;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 450;
+  
+  font-size: 120%;
+  margin-top: 0.5em;
+  margin-left: 10%;
+}
+.d{
+  text-align: start;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 110%;
+  margin-top: 0.5em;
+  margin-left: 10%;
+  text-transform: capitalize;
+}
+#container{
+display: grid ;
+grid-template-columns: auto auto auto;
+margin-left: 10%;
+margin-right: 10%;
+}
+#center{
+  margin-top: 20;
+  margin-left: 45%;
+  margin-bottom: 0%;
+ filter:invert();
+}
+/* #center:hover{
+  overflow:none;
+  transform: scale(150%);
+  transition: linear(300ms);
+} */
+.m{
+  color: hwb(36 0% 0% / 0.854);
+  text-transform: capitalize;
+  text-decoration: none;
+  margin-left: 10px;
+  align-content: center;
+  margin-right: 1%;
+  margin-top: 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+  Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+  sans-serif;
+  border: 2px;
+  border:solid;
+  width: 80px;
+  text-align: center;
+  border-style: groove;
+  border-color: hwb(36 0% 0% / 0.854);
+  font-size: large;
+  border-left-style: hidden;
+  border-right-style: hidden;
+  border-bottom-style: hidden;
+}
+#car{
+  margin-top: 100px;
+  margin-left: 558px;
+  /* border: 2px;
+  border:solid;
+  border: hsl(336, 56%, 98%);
+  width: 800px;
+  text-align: center;
+  border-style: groove;
+  border-color: #ff0f7b;
+  font-size: large; */
+  border-left-style: hidden;
+  border-right-style: hidden;
+  border-bottom-style: hidden;
+}
+#ele1:hover{
+overflow: hidden;
+transform: scale(1.2);
+transform: 1s;
+background-color: #ffffff85;
+filter: invert();
+transition: ease-in-out 1000ms;
+}
+#ele2:hover{
+  overflow: hidden;
+  transform: scale(1.2);
+  transform: 1s;
+  background-color: hsla(340, 100%, 99%, 0.233);
+  filter: invert();
+  transition: ease-in-out 900ms;
+  }
+  #ele3:hover{
+    overflow: hidden; 
+    transform: scale(1.2);
+    transform: 1s;
+    background-color: hsla(340, 100%, 99%, 0.233);
+    filter: invert();
+    transition: ease-in-out 900ms;
+    }
+    #ele4:hover{
+      overflow: hidden;
+      transform: scale(1.2);
+      transform: 1s;
+      background-color: hsla(340, 100%, 99%, 0.233);
+      filter: invert();
+      transition: ease-in-out 900ms;
+      }
+      #ele5:hover{
+        overflow: hidden;
+        transform: scale(1.2);
+        transform: 1s;
+        background-color: hsla(340, 100%, 99%, 0.233);
+        filter: invert();
+        transition: ease-in-out 900ms;
+        }
+        #ele6:hover{
+          overflow: hidden;
+          transform: scale(1.2);
+          transform: 1s;
+          background-color: hsla(340, 100%, 99%, 0.233);
+          filter: invert();
+          transition: ease-in-out 900ms;
+          }
+          #name{
+            color: hwb(0 0% 100%);
+            font-size: medium;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin-left: 1px;
+            display: block;
+            border-style: double;
+            border-color: hsla(0, 0%, 0%, 0.843);
+            border-width: 2px;
+           background-color: #00f89d;
+           border-radius: 10%;
+          }
+          #info{
+            width: 150px;
+          }
